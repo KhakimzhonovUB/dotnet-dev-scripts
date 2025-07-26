@@ -1,0 +1,58 @@
+# .gitignore для dotnet-dev-scripts проекта
+
+# Операционная система
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+*.bak
+*.orig
+
+# Тестовые проекты (созданные скриптами для тестирования)
+test-output/
+sample-output/
+temp-projects/
+
+# Локальные настройки пользователя
+.env
+.env.local
+config.local.*
+
+# Файлы документации (если генерируются автоматически)
+docs/generated/
+
+# Backup файлы скриптов
+*.sh.bak
+*.sh.orig
+
+# Кэш и логи
+cache/
+logs/
+*.cache
+
+# Архивы и бинарные файлы
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+
+# Локальные заметки разработчика
+TODO.md
+NOTES.md
+scratch.md
